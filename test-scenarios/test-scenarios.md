@@ -13,6 +13,7 @@
 | TS-LOGIN-006 | Login with empty username and valid password | Negative |
 | TS-LOGIN-007 | Login with valid username and empty password | Negative |
 
+
 ## 2. Product Listing
 
 | Scenario ID | Scenario | Type |
