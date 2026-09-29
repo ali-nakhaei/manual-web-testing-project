@@ -61,10 +61,10 @@ Status: PASS
 - An appropriate error message is displayed.
 
 **Actual Result:**
--
+The login attempt was rejected and an error message stating that the username and password do not match was displayed.
 
 **Status:**
--
+PASS
 
 
 ### TC-LOGIN-003 — Login with valid username and invalid password
@@ -94,10 +94,10 @@ Status: PASS
 - An appropriate error message is displayed.
 
 **Actual Result:**
--
+The login attempt was rejected and an error message stating that the username and password do not match was displayed.
 
 **Status:**
--
+PASS
 
 
 ### TC-LOGIN-004 — Login with invalid username and valid password
@@ -127,10 +127,11 @@ Status: PASS
 - An appropriate error message is displayed.
 
 **Actual Result:**
--
+The login attempt was rejected and an error message stating that the username and password do not match was displayed.
 
 **Status:**
--
+PASS
+
 
 ### TC-LOGIN-005 — Login with empty username and empty password
 
@@ -159,10 +160,10 @@ Status: PASS
 - An appropriate validation error message is displayed.
 
 **Actual Result:**
--
+The login attempt was rejected and the error message "Epic sadface: Username is required" was displayed.
 
 **Status:**
--
+PASS
 
 
 ### TC-LOGIN-006 — Login with empty username and valid password
@@ -192,10 +193,12 @@ Status: PASS
 - An appropriate validation error message is displayed.
 
 **Actual Result:**
--
+The login attempt was rejected and the error message "Epic sadface: Username is required" was displayed.
 
 **Status:**
--
+PASS
+
+
 
 ### TC-LOGIN-007 — Login with valid username and empty password
 
@@ -224,10 +227,10 @@ Status: PASS
 - An appropriate validation error message is displayed.
 
 **Actual Result:**
--
+The login attempt was rejected and the error message "Epic sadface: Password is required" was displayed.
 
 **Status:**
--
+PASS
 
 
 
@@ -260,10 +263,10 @@ Status: PASS
 - A list of products is displayed.
 
 **Actual Result:**
--
+The Products page was displayed successfully and the list of products was displayed correctly.
 
 **Status:**
--
+PASS
 
 
 ### TC-PRODUCT-002 — Verify that product information is displayed correctly
@@ -293,10 +296,10 @@ Status: PASS
 - The product information is displayed correctly and clearly.
 
 **Actual Result:**
--
+Product information including the name, description, and price was displayed correctly.
 
 **Status:**
--
+PASS
 
 
 ### TC-PRODUCT-003 — Verify that product images are displayed
@@ -325,10 +328,11 @@ Status: PASS
 - The images correspond to the respective products.
 
 **Actual Result:**
--
+The product prices were displayed correctly and clearly for the products.
 
 **Status:**
--
+PASS
+
 
 
 ### TC-PRODUCT-004 — Verify that product prices are displayed
@@ -357,10 +361,11 @@ Status: PASS
 - The price is displayed in the expected currency format.
 
 **Actual Result:**
--
+The Add to Cart button was displayed and available for the products.
 
 **Status:**
--
+PASS
+
 
 
 ### TC-PRODUCT-005 — Verify that the Add to Cart button is available for products
@@ -389,10 +394,10 @@ Status: PASS
 - The button is available for interaction.
 
 **Actual Result:**
--
+The Add to Cart button was displayed and available for the products.
 
 **Status:**
--
+PASS
 
 
 ### TC-PRODUCT-006 — Verify that the Add to Cart button changes after adding a product
@@ -421,10 +426,10 @@ Status: PASS
 - The Add to Cart button changes to the expected state after the product is added.
 
 **Actual Result:**
--
+The product was added to the cart and the Add to Cart button changed to the expected state.
 
 **Status:**
--
+PASS
 
 
 ### TC-PRODUCT-007 — Verify that the cart is updated after adding a product
@@ -454,10 +459,11 @@ Status: PASS
 - The cart item count is updated correctly.
 
 **Actual Result:**
--
+The selected product was added to the cart successfully, and the cart was updated correctly.
 
 **Status:**
--
+PASS
+
 
 
 ## 3. Product Sorting
@@ -487,10 +493,10 @@ Status: PASS
 - The sorting option is visible and available for interaction.
 
 **Actual Result:**
--
+The sorting option was displayed and available for interaction.
 
 **Status:**
--
+PASS
 
 
 ### TC-SORT-002 — Verify that products are sorted correctly by name
@@ -519,10 +525,10 @@ Status: PASS
 - The product order is updated correctly.
 
 **Actual Result:**
--
+The products were sorted correctly according to the selected name-based sorting option.
 
 **Status:**
--
+PASS
 
 
 ### TC-SORT-003 — Verify that products are sorted correctly by price
@@ -551,10 +557,10 @@ Status: PASS
 - The product order is updated correctly.
 
 **Actual Result:**
--
+The products were sorted correctly according to the selected price-based sorting option.
 
 **Status:**
--
+PASS
 
 
 
@@ -586,10 +592,10 @@ Status: PASS
 - The selected product is displayed on the Product Details page.
 
 **Actual Result:**
--
+The Product Details page was displayed successfully and the selected product was displayed correctly.
 
 **Status:**
--
+PASS
 
 
 ### TC-DETAILS-002 — Verify that the product name is displayed correctly
@@ -618,10 +624,10 @@ Status: PASS
 - The displayed product name matches the product selected from the Products page.
 
 **Actual Result:**
--
+The product name was displayed correctly and matched the selected product.
 
 **Status:**
--
+PASS
 
 
 ### TC-DETAILS-003 — Verify that the product image is displayed correctly
@@ -651,10 +657,10 @@ Status: PASS
 - The displayed image corresponds to the selected product.
 
 **Actual Result:**
--
+The product image was displayed correctly and matched the selected product.
 
 **Status:**
--
+PASS
 
 
 ### TC-DETAILS-004 — Verify that the product description is displayed
@@ -684,10 +690,10 @@ Status: PASS
 - The description is readable and clearly displayed.
 
 **Actual Result:**
--
+The product description was displayed correctly and matched the selected product.
 
 **Status:**
--
+PASS
 
 
 ### TC-DETAILS-005 — Verify that the product price is displayed correctly
@@ -717,10 +723,10 @@ Status: PASS
 - The price is clearly displayed and readable.
 
 **Actual Result:**
--
+The product price was displayed correctly and matched the price shown for the selected product on the Products page.
 
 **Status:**
--
+PASS
 
 
 ### TC-DETAILS-006 — Verify that the Add to Cart button is available
@@ -750,10 +756,10 @@ Status: PASS
 - The button is available for interaction.
 
 **Actual Result:**
--
+The Add to Cart button was displayed and available for interaction.
 
 **Status:**
--
+PASS
 
 
 ### TC-DETAILS-007 — Verify that a product can be added to the cart from the Product Details page
@@ -784,10 +790,10 @@ Status: PASS
 - The cart item count is updated correctly.
 
 **Actual Result:**
--
+The selected product was added to the shopping cart successfully, and the cart was updated correctly.
 
 **Status:**
--
+PASS
 
 
 ### TC-DETAILS-008 — Verify that the user can return to the Product Listing page from the Product Details page
@@ -818,10 +824,12 @@ Status: PASS
 - The product list is displayed.
 
 **Actual Result:**
--
+The user was successfully returned to the Product Listing page, and the list of products was displayed.
 
 **Status:**
--
+PASS
+
+
 
 
 ### TC-CART-001 — Verify that a product can be added to the shopping cart
@@ -851,10 +859,10 @@ Status: PASS
 - The selected product is displayed in the shopping cart.
 
 **Actual Result:**
--
+The cart indicator displayed the correct number of added items, and the number of products in the cart matched the number of items added.
 
 **Status:**
--
+PASS
 
 
 ### TC-CART-002 — Verify that the cart displays the correct number of added items
@@ -884,10 +892,11 @@ Status: PASS
 - The number of products displayed in the shopping cart matches the number of products added.
 
 **Actual Result:**
--
+The cart indicator displayed the correct number of added items, and the number of products in the cart matched the number of items added.
 
 **Status:**
--
+PASS
+
 
 ### TC-CART-003 — Verify that the added product is displayed in the shopping cart
 
@@ -916,10 +925,10 @@ Status: PASS
 - The displayed product is the same product that was added from the Products page.
 
 **Actual Result:**
--
+The added product was displayed correctly in the shopping cart and matched the selected product.
 
 **Status:**
--
+PASS
 
 
 ### TC-CART-004 — Verify that the product name and price are displayed correctly in the shopping cart
@@ -951,10 +960,10 @@ Status: PASS
 - The product name and price match the selected product.
 
 **Actual Result:**
--
+The product name and price were displayed correctly in the shopping cart and matched the information shown on the Products page.
 
 **Status:**
--
+PASS
 
 
 ### TC-CART-005 — Verify that a product can be removed from the shopping cart
@@ -985,11 +994,10 @@ Status: PASS
 - The removed product is no longer displayed in the shopping cart.
 
 **Actual Result:**
--
+The selected product was successfully removed from the shopping cart and was no longer displayed.
 
 **Status:**
--
-
+PASS
 
 
 ### TC-CART-006 — Verify that the cart is updated after removing a product
@@ -1021,10 +1029,10 @@ Status: PASS
 - The cart reflects the current number of products.
 
 **Actual Result:**
--
+The removed product was no longer displayed in the shopping cart, and the cart indicator was updated correctly.
 
 **Status:**
--
+PASS
 
 
 ### TC-CART-007 — Verify the behavior when adding multiple units of the same product
@@ -1058,10 +1066,10 @@ Status: PASS
 - No unexpected or duplicate behavior occurs.
 
 **Actual Result:**
--
+After adding a product to the cart, the Add to Cart button changed and the same product could not be added again from the Products page.
 
 **Status:**
--
+PASS
 
 
 ### TC-CART-008 — Verify that multiple different products can be displayed in the shopping cart
@@ -1095,10 +1103,10 @@ Status: PASS
 - The cart reflects the correct number of added products.
 
 **Actual Result:**
--
+Both different products were displayed correctly in the shopping cart, and the cart item count was updated correctly.
 
 **Status:**
--
+PASS
 
 
 ### TC-CART-009 — Verify that clicking the product name in the cart opens the corresponding Product Details page
@@ -1130,10 +1138,11 @@ Status: PASS
 - The displayed product is the same product selected from the shopping cart.
 
 **Actual Result:**
--
+The Product Details page opened successfully and displayed the same product selected from the shopping cart.
 
 **Status:**
--
+PASS
+
 
 ### TC-CART-010 — Verify that the cart is empty after all products are removed
 
@@ -1165,10 +1174,10 @@ Status: PASS
 - The cart reflects that there are no remaining products.
 
 **Actual Result:**
--
+All products were successfully removed from the shopping cart, and the cart was empty afterward.
 
 **Status:**
--
+PASS
 
 
 
@@ -1202,10 +1211,10 @@ Status: PASS
 - The user can enter the required customer information.
 
 **Actual Result:**
--
+The user successfully proceeded from the Shopping Cart to the Checkout page, and the Customer Information form was displayed.
 
 **Status:**
--
+PASS
 
 
 ### TC-CHECKOUT-002 — Verify that the Customer Information form is displayed
@@ -1240,10 +1249,10 @@ Status: PASS
 - The Continue button is displayed.
 
 **Actual Result:**
--
+The Customer Information form was displayed correctly, including the First Name, Last Name, Postal Code fields, and Continue button.
 
 **Status:**
--
+PASS
 
 
 ### TC-CHECKOUT-003 — Verify that the user cannot proceed with empty required fields
@@ -1277,10 +1286,10 @@ Status: PASS
 - The Customer Information page remains displayed.
 
 **Actual Result:**
--
+The user could not proceed with empty required fields, and the error message "First Name is required" was displayed.
 
 **Status:**
--
+PASS
 
 
 ### TC-CHECKOUT-004 — Verify that the user can proceed with valid customer information
@@ -1320,10 +1329,10 @@ Status: PASS
 - The Order Summary page is displayed.
 
 **Actual Result:**
--
+The valid customer information was accepted, and the user was successfully redirected to the Order Summary page.
 
 **Status:**
--
+PASS
 
 
 ### TC-CHECKOUT-005 — Verify the validation behavior of the Postal Code field
@@ -1363,10 +1372,10 @@ Status: PASS
 - An appropriate validation message is displayed.
 
 **Actual Result:**
--
+The user could not proceed with an empty Postal Code field, and the error message "Postal Code is required" was displayed.
 
 **Status:**
--
+PASS
 
 
 ### TC-CHECKOUT-006 — Verify that the Order Summary displays the selected products correctly
@@ -1405,10 +1414,10 @@ Status: PASS
 - The product displayed matches the product added to the shopping cart.
 
 **Actual Result:**
--
+The Order Summary displayed the selected product correctly, and it matched the product in the shopping cart.
 
 **Status:**
--
+PASS
 
 
 ### TC-CHECKOUT-007 — Verify that product prices are displayed correctly in the Order Summary
@@ -1448,10 +1457,10 @@ Status: PASS
 - The price is clearly displayed and readable.
 
 **Actual Result:**
--
+The product price was displayed correctly in the Order Summary and matched the price shown on the Products page.
 
 **Status:**
--
+PASS
 
 
 ### TC-CHECKOUT-008 — Verify that the total price is calculated correctly
@@ -1492,10 +1501,10 @@ Status: PASS
 - The total price is calculated correctly according to the application's pricing rules.
 
 **Actual Result:**
--
+The subtotal was calculated correctly based on the selected product prices, and the displayed total price was calculated correctly.
 
 **Status:**
--
+PASS
 
 
 ### TC-CHECKOUT-009 — Verify that the user can complete the order
@@ -1534,10 +1543,10 @@ Status: PASS
 - The user is redirected to the order confirmation page.
 
 **Actual Result:**
--
+The order was completed successfully, and the order confirmation page.
 
 **Status:**
--
+PASS
 
 
 ### TC-CHECKOUT-010 — Verify that an order confirmation message is displayed after completing the order
@@ -1576,10 +1585,10 @@ Status: PASS
 - The message indicates that the order has been completed successfully.
 
 **Actual Result:**
--
+The order confirmation page was displayed with the message "Thank you for your order!".
 
 **Status:**
--
+PASS
 
 
 
@@ -1608,10 +1617,10 @@ Status: PASS
 - The Logout option is visible and available for interaction.
 
 **Actual Result:**
--
+The Logout option was displayed and available for interaction.
 
 **Status:**
--
+PASS
 
 
 
@@ -1641,10 +1650,10 @@ Status: PASS
 - The user is no longer able to access the authenticated application state.
 
 **Actual Result:**
--
+The user was successfully logged out.
 
 **Status:**
--
+PASS
 
 
 ### TC-LOGOUT-003 — Verify that the user is redirected to the Login page after logging out
@@ -1675,10 +1684,10 @@ Status: PASS
 - The Login button is displayed.
 
 **Actual Result:**
--
+The user was redirected to the Login page after logging out, and the Username, Password, and Login button were displayed.
 
 **Status:**
--
+PASS
 
 
 
@@ -1709,10 +1718,10 @@ Status: PASS
 - The user is redirected to the Login page or is otherwise required to log in again.
 
 **Actual Result:**
--
+After logging out, attempting to access the Products page directly was blocked, and the error message "Epic sadface: You can only access '/inventory.html' when you are logged in." was displayed.
 
 **Status:**
--
+PASS
 
 
 
@@ -1747,10 +1756,10 @@ Status: PASS
 - The user should not be able to continue accessing authenticated functionality if the session has been invalidated by Logout.
 
 **Actual Result:**
--
+After logging out from one tab, the other active tab no longer allowed access to the authenticated page and redirected to the Login page.
 
 **Status:**
--
+PASS
 
 
 
